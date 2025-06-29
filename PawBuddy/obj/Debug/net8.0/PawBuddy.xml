@@ -1,0 +1,1308 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PawBuddy</name>
+    </assembly>
+    <members>
+        <member name="T:PawBuddy.Areas.Identity.Pages.Account.AccessDeniedModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.AccessDeniedModel.OnGet">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Areas.Identity.Pages.Account.LoginModel">
+            <summary>
+            Classe responsável pelo processo de login
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.LoginModel.#ctor(Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.Extensions.Logging.ILogger{PawBuddy.Areas.Identity.Pages.Account.LoginModel})">
+            <summary>
+            Construtor: inicializa os serviços injetados
+            </summary>
+            <param name="signInManager"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.LoginModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.LoginModel.ExternalLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.LoginModel.ReturnUrl">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.LoginModel.ErrorMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Areas.Identity.Pages.Account.LoginModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.LoginModel.InputModel.UsernameOrEmail">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.LoginModel.InputModel.Password">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.LoginModel.InputModel.RememberMe">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.LoginModel.OnGetAsync(System.String)">
+            <summary>
+            Método que é executado quando a página é acedida via GET
+            </summary>
+            <param name="returnUrl"></param>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.LoginModel.OnPostAsync(System.String)">
+            <summary>
+              // Método que é executado quando o formulário de login é submetido (POST)
+            </summary>
+            <param name="returnUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel.InputModel.Password">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel.RequirePassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.Disable2faModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.SharedKey">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.AuthenticatorUri">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.RecoveryCodes">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel.InputModel.Code">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel.CurrentLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel.OtherLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel.ShowRemoveButton">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel.RecoveryCodes">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.Index">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.Email">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.ChangePassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.DownloadPersonalData">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.DeletePersonalData">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.ExternalLogins">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.PersonalData">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.TwoFactorAuthentication">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.IndexNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.EmailNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.ChangePasswordNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.DownloadPersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.DeletePersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.ExternalLoginsNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.PersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.TwoFactorAuthenticationNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.Manage.ManageNavPages.PageNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String)">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.SetPasswordModel.Input">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.SetPasswordModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Areas.Identity.Pages.Account.Manage.SetPasswordModel.InputModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.SetPasswordModel.InputModel.NewPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.SetPasswordModel.InputModel.ConfirmPassword">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Areas.Identity.Pages.Account.Manage.ShowRecoveryCodesModel">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ShowRecoveryCodesModel.RecoveryCodes">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.ShowRecoveryCodesModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.Manage.ShowRecoveryCodesModel.OnGet">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel.HasAuthenticator">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel.RecoveryCodesLeft">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel.Is2faEnabled">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel.IsMachineRemembered">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel.StatusMessage">
+            <summary>
+                This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Areas.Identity.Pages.Account.RegisterModel">
+            <summary>
+            Classe responsável pelo processo de registo
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.RegisterModel.#ctor(Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.IUserStore{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.Extensions.Logging.ILogger{PawBuddy.Areas.Identity.Pages.Account.RegisterModel},Microsoft.AspNetCore.Identity.UI.Services.IEmailSender,PawBuddy.Data.ApplicationDbContext)">
+            <summary>
+            // Construtor: recebe todos os serviços necessários
+            </summary>
+            <param name="userManager"></param>
+            <param name="userStore"></param>
+            <param name="signInManager"></param>
+            <param name="logger"></param>
+            <param name="emailSender"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync(System.String)">
+            <summary>
+            Método chamado quando a página é carregada
+            </summary>
+            <param name="returnUrl"></param>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.RegisterModel.OnPostAsync(System.String)">
+            <summary>
+            Método chamado quando o formulário é submetido
+            </summary>
+            <param name="returnUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.RegisterModel.CreateUser">
+            <summary>
+            Cria uma instância de IdentityUser
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.RegisterModel.GetEmailStore">
+            <summary>
+            // Obtém o store que permite associar emails a utilizadores5
+            </summary>
+            <returns></returns>
+            <exception cref="T:System.NotSupportedException"></exception>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.RegisterConfirmationModel.Email">
+            <summary>
+                Email do utilizador que será confirmado.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.RegisterConfirmationModel.DisplayConfirmAccountLink">
+            <summary>
+                Flag para determinar se o link de confirmação de conta será mostrado.
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Areas.Identity.Pages.Account.RegisterConfirmationModel.EmailConfirmationUrl">
+            <summary>
+                URL para a página de confirmação de email.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Areas.Identity.Pages.Account.RegisterConfirmationModel.OnGetAsync(System.String,System.String)">
+            <summary>
+                Método para gerar a página de confirmação de registro do utilizador.
+            </summary>
+            <param name="email">Email do utilizador.</param>
+            <param name="returnUrl">URL para redirecionar após confirmação.</param>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdministradorController.ListaAdmin">
+            <summary>
+            Lista todos os utilizadores com a role "Administrador".
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdministradorController.Create">
+            <summary>
+            Exibe o formulário para criação de um novo administrador.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdministradorController.Create(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.DateTime,System.String)">
+            <summary>
+            Processa o formulário para criar um novo administrador.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdministradorController.Edit(System.String)">
+            <summary>
+            Exibe formulário de edição de administrador.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdministradorController.Edit(System.String,System.Int32,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Atualiza os dados do administrador no Identity e na tabela personalizada.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdministradorController.Details(System.String)">
+            <summary>
+            Exibe detalhes do administrador.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdministradorController.Delete(System.String)">
+            <summary>
+            Exibe confirmação de eliminação de administrador.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdministradorController.DeleteConfirmed(System.String)">
+            <summary>
+            Remove permanentemente um administrador.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdministradorController.UtilizadorExists(System.Int32)">
+            <summary>
+            Verifica se um utilizador existe no banco de dados da aplicação.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Controllers.AdotamController">
+            <summary>
+            Controlador responsável pela gestão das adoções.
+            Acesso restrito ao perfil "Admin".
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdotamController.#ctor(PawBuddy.Data.ApplicationDbContext)">
+            <summary>
+            Construtor do controlador que recebe o contexto da base de dados.
+            </summary>
+            <param name="context">Contexto da base de dados.</param>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdotamController.Index">
+            <summary>
+            Lista todas as adoções registadas, incluindo dados do animal e do utilizador.
+            </summary>
+            <returns>Vista com a lista de adoções.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdotamController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Mostra os detalhes de uma adoção específica.
+            </summary>
+            <param name="id">ID do animal (chave estrangeira).</param>
+            <returns>Vista com os detalhes ou NotFound.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdotamController.Create">
+            <summary>
+            Exibe o formulário de criação de uma nova adoção.
+            </summary>
+            <returns>Vista de criação com dropdowns para selecionar Animal e Utilizador.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdotamController.Create(PawBuddy.Models.Adotam)">
+            <summary>
+            Regista uma nova adoção na base de dados.
+            </summary>
+            <param name="adotam">Objeto com os dados da adoção.</param>
+            <returns>Redireciona para o índice se bem-sucedido, caso contrário retorna a vista.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdotamController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Exibe o formulário para editar os dados de uma adoção existente.
+            </summary>
+            <param name="id">ID da adoção (animal).</param>
+            <returns>Vista de edição com os dados preenchidos.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdotamController.Edit(System.Int32,PawBuddy.Models.Adotam)">
+            <summary>
+            Atualiza os dados de uma adoção existente.
+            </summary>
+            <param name="id">ID original da adoção.</param>
+            <param name="adotam">Objeto com os novos dados.</param>
+            <returns>Redireciona para o índice se bem-sucedido, ou retorna a vista com erros.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdotamController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Mostra a confirmação de eliminação de uma adoção.
+            </summary>
+            <param name="id">ID do animal relacionado com a adoção.</param>
+            <returns>Vista de confirmação ou NotFound.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdotamController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Elimina permanentemente uma adoção da base de dados.
+            </summary>
+            <param name="id">ID da adoção a ser eliminada.</param>
+            <returns>Redireciona para o índice após a eliminação.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AdotamController.AdotamExists(System.Int32)">
+            <summary>
+            Verifica se uma adoção existe com base no ID do animal.
+            </summary>
+            <param name="id">ID do animal (FK).</param>
+            <returns>True se existir, false caso contrário.</returns>
+        </member>
+        <member name="T:PawBuddy.Controllers.AnimaisController">
+            <summary>
+            Controlador responsável pela gestão dos animais no sistema.
+            Permite visualizar, adicionar, editar e remover animais.
+            Também lida com o upload e validação de imagens.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.AnimaisController.#ctor(PawBuddy.Data.ApplicationDbContext)">
+            <summary>
+            Construtor que injeta o contexto da base de dados.
+            </summary>
+            <param name="context">Contexto da base de dados.</param>
+        </member>
+        <member name="M:PawBuddy.Controllers.AnimaisController.Index(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Lista todos os animais cadastrados.
+            </summary>
+            <returns>Vista com a lista de animais.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AnimaisController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Exibe os detalhes de um animal específico.
+            </summary>
+            <param name="id">ID do animal.</param>
+            <returns>Vista de detalhes ou NotFound.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AnimaisController.Create">
+            <summary>
+            Exibe o formulário para criação de um novo animal.
+            </summary>
+            <returns>Vista de criação.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AnimaisController.Create(PawBuddy.Models.Animal,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Cria um novo animal e salva a imagem enviada.
+            </summary>
+            <param name="animal">Dados do animal.</param>
+            <param name="imagem">Imagem enviada via formulário.</param>
+            <returns>Redireciona ao índice ou retorna a vista com erros.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AnimaisController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Exibe o formulário para editar um animal existente.
+            </summary>
+            <param name="id">ID do animal.</param>
+            <returns>Vista de edição ou NotFound.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AnimaisController.Edit(System.Int32,PawBuddy.Models.Animal,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Atualiza os dados do animal e substitui a imagem, se uma nova for enviada.
+            </summary>
+            <param name="id">ID do animal a ser editado.</param>
+            <param name="animal">Objeto com os dados atualizados.</param>
+            <param name="imagem">Nova imagem, se houver.</param>
+            <returns>Redireciona ao índice ou retorna a vista com erros.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AnimaisController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Exibe a confirmação para remover um animal.
+            </summary>
+            <param name="id">ID do animal.</param>
+            <returns>Vista de confirmação ou NotFound.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.AnimaisController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Confirma e executa a exclusão lógica de um animal do sistema.
+            Em vez de apagar permanentemente a imagem do animal, ela é movida para a pasta "Lixo"
+            dentro de "wwwroot/images" para possibilitar futura restauração ou auditoria.
+            </summary>
+            <param name="id">O identificador único (ID) do animal a ser excluído.</param>
+            <returns>Redireciona para a view <c>Index</c> após a exclusão ser concluída.</returns>
+            <remarks>
+            Se o animal tiver uma imagem associada, o arquivo será movido para o diretório
+            <c>wwwroot/images/Lixo</c>. Se o diretório não existir, ele será criado automaticamente.
+            </remarks>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PawBuddy.Controllers.AnimaisController.AnimalExists(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "T:PawBuddy.Controllers.API.AnimalController" -->
+        <member name="M:PawBuddy.Controllers.API.AnimalController.#ctor(PawBuddy.Data.ApplicationDbContext)">
+            <summary>
+            Construtor que recebe o contexto da base de dados por injeção de dependência
+            </summary>
+            <param name="context">Contexto da base de dados</param>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.AnimalController.GetAnimal">
+            <summary>
+            Obtém a lista de todos os animais
+            </summary>
+            <returns>Lista de animais</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.AnimalController.GetAnimal(System.Int32)">
+            <summary>
+            Obtém um animal específico pelo seu ID
+            </summary>
+            <param name="id">ID do animal</param>
+            <returns>Dados do animal ou NotFound se não existir</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.AnimalController.PostAnimal(PawBuddy.Models.Animal,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Cria um novo registo de animal
+            </summary>
+            <param name="animal">Dados do animal</param>
+            <param name="imagem">Ficheiro de imagem do animal</param>
+            <returns>Dados do animal criado ou erro de validação</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.AnimalController.PutAnimal(System.Int32,PawBuddy.Models.Animal,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Atualiza os dados de um animal existente
+            </summary>
+            <param name="id">ID do animal a atualizar</param>
+            <param name="animal">Dados atualizados do animal</param>
+            <param name="imagem">Nova imagem do animal (opcional)</param>
+            <returns>Status de sucesso ou erro</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.AnimalController.DeleteAnimal(System.Int32)">
+            <summary>
+            Elimina um animal existente
+            </summary>
+            <param name="id">ID do animal a eliminar</param>
+            <returns>Status de sucesso ou erro</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.AnimalController.AnimalExists(System.Int32)">
+            <summary>
+            Verifica se um animal com o ID especificado existe
+            </summary>
+            <param name="id">ID do animal</param>
+            <returns>True se existir, False caso contrário</returns>
+        </member>
+        <member name="T:PawBuddy.Controllers.API.AuthController">
+            <summary>
+            Controlador API para autenticação de utilizadores
+            Responsável por operações de login, logout e verificação de autenticação
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.AuthController.#ctor(Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser})">
+            <summary>
+            Construtor que recebe os serviços de autenticação por injeção de dependência
+            </summary>
+            <param name="signInManager">Serviço para gestão de autenticação</param>
+            <param name="userManager">Serviço para gestão de utilizadores</param>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.AuthController.Hello">
+            <summary>
+            Endpoint de teste para verificar autenticação
+            Requer que o utilizador esteja autenticado
+            </summary>
+            <returns>Mensagem de saudação com o nome do utilizador</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.AuthController.Login(PawBuddy.Models.ApiModels.LoginModel)">
+            <summary>
+            Endpoint para autenticação de utilizadores
+            </summary>
+            <param name="loginRequest">Objeto com credenciais de login (email e password)</param>
+            <returns>Resultado da operação de login</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.AuthController.Logout">
+            <summary>
+            Endpoint para terminar a sessão do utilizador
+            </summary>
+            <returns>Status 204 (NoContent) em caso de sucesso</returns>
+        </member>
+        <member name="T:PawBuddy.Controllers.API.DoaController">
+            <summary>
+            Controlador API para gestão de doações
+            Permite operações CRUD sobre doações
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.DoaController.#ctor(PawBuddy.Data.ApplicationDbContext)">
+            <summary>
+            Construtor que recebe o contexto da base de dados
+            </summary>
+            <param name="context">Contexto de acesso à base de dados</param>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.DoaController.GetDoa">
+            <summary>
+            Obtém todas as doações registadas
+            </summary>
+            <returns>Lista de doações com informações de animal e utilizador</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.DoaController.GetDoa(System.Int32)">
+            <summary>
+            Obtém uma doação específica pelo seu ID
+            </summary>
+            <param name="id">ID da doação</param>
+            <returns>Dados da doação ou NotFound se não existir</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.DoaController.PostDoa(System.Int32,PawBuddy.Models.Doa)">
+            <summary>
+            Cria uma nova doação para um animal específico
+            </summary>
+            <param name="id">ID do animal</param>
+            <param name="doa">Dados da doação</param>
+            <returns>Dados da doação criada ou erro</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.DoaController.PutDoa(System.Int32,PawBuddy.Models.Doa)">
+            <summary>
+            Atualiza uma doação existente
+            </summary>
+            <param name="id">ID da doação a atualizar</param>
+            <param name="doaAtualizada">Dados atualizados da doação</param>
+            <returns>Resultado da operação</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.DoaController.DoaExiste(System.Int32)">
+            <summary>
+            Verifica se uma doação existe
+            </summary>
+            <param name="id">ID da doação</param>
+            <returns>Verdadeiro se existir, falso caso contrário</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.DoaController.DeleteDoa(System.Int32)">
+            <summary>
+            Elimina uma doação existente
+            </summary>
+            <param name="id">ID da doação a eliminar</param>
+            <returns>Resultado da operação</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.API.DoaController.DoaExists(System.Int32)">
+            <summary>
+            Verifica se uma doação existe
+            </summary>
+            <param name="id">ID da doação</param>
+            <returns>Verdadeiro se existir, falso caso contrário</returns>
+        </member>
+        <member name="T:PawBuddy.Controllers.DoaController">
+            <summary>
+            Controlador responsável pela gestão de doações. 
+            Apenas utilizadores com o perfil "Admin" têm acesso.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.DoaController.#ctor(PawBuddy.Data.ApplicationDbContext)">
+            <summary>
+            Construtor que recebe o contexto da base de dados
+            </summary>
+            <param name="context">Contexto da base de dados</param>
+        </member>
+        <member name="M:PawBuddy.Controllers.DoaController.Index">
+            <summary>
+            Apresenta a lista de todas as doações registadas no sistema.
+            </summary>
+            <returns>View com a lista de doações.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.DoaController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Apresenta os detalhes de uma doação específica.
+            </summary>
+            <param name="id">Identificador da doação.</param>
+            <returns>View com os detalhes da doação, ou NotFound se não existir.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.DoaController.Create(System.Int32)">
+            <summary>
+            Apresenta o formulário para criar uma nova doação.
+            </summary>
+            <returns>View de criação da doação.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PawBuddy.Controllers.DoaController.Create(System.Int32,PawBuddy.Models.Doa)" -->
+        <member name="M:PawBuddy.Controllers.DoaController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Apresenta o formulário de edição de uma doação.
+            </summary>
+            <param name="id">Identificador da doação.</param>
+            <returns>View de edição ou NotFound se não existir.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.DoaController.Edit(System.Int32,PawBuddy.Models.Doa)">
+            <summary>
+            Processa a atualização das informações de uma doação.
+            </summary>
+            <param name="id">Identificador da doação.</param>
+            <param name="doa">Objeto atualizado da doação.</param>
+            <returns>Redireciona para Index se for bem-sucedido, senão retorna a mesma view com mensagens de erro.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.DoaController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Apresenta a confirmação para eliminar uma doação.
+            </summary>
+            <param name="id">Identificador da doação.</param>
+            <returns>View com os dados da doação ou NotFound se não existir.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.DoaController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Confirma e executa a eliminação da doação do sistema.
+            </summary>
+            <param name="id">Identificador da doação a eliminar.</param>
+            <returns>Redireciona para a página Index após a eliminação.</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.DoaController.DoaExists(System.Int32)">
+            <summary>
+            Verifica se uma doação com o ID especificado existe na base de dados.
+            </summary>
+            <param name="id">ID da doação.</param>
+            <returns><c>true</c> se existir; caso contrário, <c>false</c>.</returns>
+        </member>
+        <member name="T:PawBuddy.Controllers.HomeController">
+            <summary>
+            Controlador responsável pelas ações da página inicial e de privacidade do site PawBuddy.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.HomeController.Index">
+            <summary>
+            Ação que retorna a view da página inicial.
+            </summary>
+            <returns>View da página Index</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.HomeController.Privacy">
+            <summary>
+            Ação que retorna a view da página de privacidade.
+            </summary>
+            <returns>View da página Privacy</returns>
+        </member>
+        <member name="M:PawBuddy.Controllers.HomeController.Error">
+            <summary>
+            Ação que trata erros e exibe a página de erro.
+            Esta ação não armazena o cache da resposta.
+            </summary>
+            <returns>View com um modelo contendo o ID da requisição</returns>
+        </member>
+        <member name="T:PawBuddy.Controllers.IntencaoDeAdocaoController">
+            <summary>
+            Controlador responsável por gerir as intenções de adoção submetidas pelos utilizadores.
+            Acesso restrito a utilizadores com o papel de "Admin".
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.IntencaoDeAdocaoController.Index">
+            <summary>
+            Lista todas as intenções de adoção existentes.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.IntencaoDeAdocaoController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Mostra os detalhes de uma intenção de adoção específica.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.IntencaoDeAdocaoController.Create(System.Int32)">
+            <summary>
+            Apresenta o formulário para criar uma nova intenção de adoção.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.IntencaoDeAdocaoController.Create(System.Int32,PawBuddy.Models.IntencaoDeAdocao)">
+            <summary>
+            Processa os dados do formulário de criação de uma nova intenção de adoção.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.IntencaoDeAdocaoController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Apresenta o formulário de edição para uma intenção de adoção.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.IntencaoDeAdocaoController.Edit(System.Int32,PawBuddy.Models.IntencaoDeAdocao)">
+            <summary>
+            Processa os dados da edição de uma intenção de adoção.
+            Verifica se o ID da sessão corresponde ao da intenção.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.IntencaoDeAdocaoController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Mostra o formulário de confirmação para apagar uma intenção de adoção.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.IntencaoDeAdocaoController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Confirmação da exclusão da intenção de adoção.
+            Verifica se o ID corresponde ao da sessão.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.IntencaoDeAdocaoController.IntencaoDeAdocaoExists(System.Int32)">
+            <summary>
+            Verifica se uma intenção de adoção com o ID especificado existe na base de dados.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Controllers.UtilizadoresController">
+            <summary>
+            Controller responsável pela gestão dos Utilizadores.
+            Apenas acessível a utilizadores com o perfil de Admin.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.UtilizadoresController.Index">
+            <summary>
+            Lista todos os utilizadores registados.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.UtilizadoresController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Mostra os detalhes de um utilizador específico.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PawBuddy.Controllers.UtilizadoresController.Create" -->
+        <member name="M:PawBuddy.Controllers.UtilizadoresController.Create(PawBuddy.Models.Utilizador)">
+            <summary>
+            Regista um novo utilizador na base de dados.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.UtilizadoresController.Edit(System.Nullable{System.Int32})">
+            <summary>
+            Exibe o formulário de edição para um utilizador existente.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.UtilizadoresController.Edit(System.Int32,PawBuddy.Models.Utilizador)">
+            <summary>
+            Atualiza os dados de um utilizador, após validação da sessão.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.UtilizadoresController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Exibe o formulário de confirmação para eliminar um utilizador.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.UtilizadoresController.DeleteConfirmed(System.Int32)">
+            <summary>
+            Apaga o utilizador da base de dados após confirmar a identidade via sessão.
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Controllers.UtilizadoresController.UtilizadorExists(System.Int32)">
+            <summary>
+            Verifica se um utilizador existe na base de dados com base no seu ID.
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Data.Seed.DbInitializer">
+            <summary>
+            Classe responsável por inicializar e povoar a base de dados com dados de exemplo
+            </summary>
+        </member>
+        <member name="M:PawBuddy.Data.Seed.DbInitializer.Initialize(PawBuddy.Data.ApplicationDbContext)">
+            <summary>
+            Método principal que coordena toda a inicialização da base de dados
+            </summary>
+            <param name="dbContext"></param>
+        </member>
+        <member name="T:PawBuddy.Migrations.AzureMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:PawBuddy.Migrations.AzureMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PawBuddy.Migrations.AzureMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:PawBuddy.Migrations.AzureMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:PawBuddy.Models.Adotam">
+            olá
+             <summary>
+             Class associada as adoçoes definitivas 
+             </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Adotam.Id">
+            <summary>
+            idendificação da adoção
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Adotam.dateA">
+            <summary>
+            data da adoção definitiva
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Adotam.UtilizadorFK">
+            <summary>
+            FK para referenciar o utilizador que adota definitivamente um animal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Adotam.AnimalFK">
+            <summary>
+            FK para referenciar o animal que foi adotado 
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Models.Animal">
+            <summary>
+            Class associada ao animal 
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Animal.Id">
+            <summary>
+            identificação do animal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Animal.Nome">
+            <summary>
+            nome do animal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Animal.Raca">
+            <summary>
+            raça do animal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Animal.Idade">
+            <summary>
+            idade do animal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Animal.Genero">
+            <summary>
+            genero do animal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Animal.Especie">
+            <summary>
+            especie do animal (gato, cão, etc)
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Animal.Cor">
+            <summary>
+            cor do animal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Animal.Imagem">
+            <summary>
+            imagem associada ao animal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Animal.IntencaoDeAdocao">
+            <summary>
+            Lista de animais que o utilizador tem intenção de adotar 
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Animal.Doa">
+            <summary>
+            Lista de doações que o utilizador ja fez aos animais
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Models.Doa">
+            <summary>
+            class relacionada as doaçoes que os utilizadores fazem aos animais
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Doa.Id">
+            <summary>
+            identificação da doação
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:PawBuddy.Models.Doa.Valor" -->
+        <member name="P:PawBuddy.Models.Doa.DataD">
+            <summary>
+            data da doação
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Doa.PrecoAux">
+            <summary>
+            Variável auxiliar usada para validar o preço inserido pelo utilizador
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Doa.UtilizadorFK">
+            <summary>
+            FK para referenciar o utilizador que tem doa dinheiro a um animal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Doa.AnimalFK">
+            <summary>
+            FK para referenciar o animal a que foi doado dinheiro
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Models.IntencaoDeAdocao">
+            <summary>
+            class que diz a intenção dos utilizadores em adotar os animais, depois é validado pelo administrador 
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.IntencaoDeAdocao.Id">
+            <summary>
+            idendificação da intenção de adoção
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.IntencaoDeAdocao.Estado">
+            <summary>
+            Estado da adoção -- enumeração abaixo
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.IntencaoDeAdocao.Profissao">
+            <summary>
+            profissão do utilizador
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.IntencaoDeAdocao.Residencia">
+            <summary>
+            que tipo de residencia onde o utilizador vive
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.IntencaoDeAdocao.Motivo">
+            <summary>
+            motivo da adoção
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.IntencaoDeAdocao.temAnimais">
+             <summary>
+             Pergunta se tem outros animais
+             </summary>
+            
+        </member>
+        <member name="P:PawBuddy.Models.IntencaoDeAdocao.quaisAnimais">
+             <summary>
+             se tiver animais, quais?
+             </summary>
+            
+        </member>
+        <member name="P:PawBuddy.Models.IntencaoDeAdocao.DataIA">
+            <summary>
+            data da submissao do formulario
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.IntencaoDeAdocao.UtilizadorFK">
+            <summary>
+            FK para referenciar o utilizador que tem a intenção de adotar um animal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.IntencaoDeAdocao.AnimalFK">
+            <summary>
+            FK para referenciar o animal que o utilizador tem a intenção de adotar 
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Models.EstadoAdocao">
+            <summary>
+            Estados associados ao processo de adoção
+            </summary>
+        </member>
+        <member name="T:PawBuddy.Models.Utilizador">
+            <summary>
+            Utilizadores não anónimos da aplicação
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.Id">
+            <summary>
+            Identificação único do utilizador
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.Nome">
+            <summary>
+            nome do utilizador
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.DataNascimento">
+            <summary>
+            data de nascimento do utilizador
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.Nif">
+            <summary>
+            número de identificação fiscal
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.Telemovel">
+            <summary>
+            número de telemóvel do utilizador
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.Morada">
+            <summary>
+            morada do utilizador
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.CodPostal">
+            <summary>
+            Código Postal da morada do utilizador
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.Email">
+            <summary>
+            email do utilizador
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.Pais">
+            <summary>
+            país de origem do utilizador
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.IdentityUserId">
+            <summary>
+            Relação com o IdentityUser
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.IdentityUser">
+            <summary>
+            Navegação para o IdentityUser
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.IntencaoDeAdocao">
+            <summary>
+            Lista de animais que o utilizador tem intenção de adotar 
+            </summary>
+        </member>
+        <member name="P:PawBuddy.Models.Utilizador.Doa">
+            <summary>
+            Lista de doações que o utilizador já fez aos animais
+            </summary>
+        </member>
+        <member name="T:AdocaoBackgroundService">
+            <summary>
+            Serviço em segundo plano para gestão automática de processos de adoção.
+            Verifica periodicamente intenções de adoção e toma ações conforme necessário.
+            </summary>
+        </member>
+        <member name="M:AdocaoBackgroundService.#ctor(System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{AdocaoBackgroundService})">
+            <summary>
+            Construtor do serviço de adoção em segundo plano
+            </summary>
+            <param name="services">Provedor de serviços para injeção de dependências</param>
+            <param name="logger">Logger para registo de atividades</param>
+        </member>
+        <member name="M:AdocaoBackgroundService.ExecuteAsync(System.Threading.CancellationToken)">
+            <summary>
+            Método principal de execução do serviço em segundo plano.
+            Executa verificações periódicas nas intenções de adoção.
+            </summary>
+            <param name="stoppingToken">Token de cancelamento para parar o serviço</param>
+            <returns>Task representando a operação assíncrona</returns>
+        </member>
+        <member name="M:AdocaoBackgroundService.ConcluirAdocao(PawBuddy.Data.ApplicationDbContext,PawBuddy.Models.IntencaoDeAdocao)">
+            <summary>
+            Conclui automaticamente um processo de adoção criando o registo definitivo
+            e removendo a intenção original
+            </summary>
+            <param name="context">Contexto da base de dados</param>
+            <param name="intencao">Intenção de adoção a processar</param>
+            <returns>Task representando a operação assíncrona</returns>
+        </member>
+        <member name="T:MaiorDeIdadeAttribute">
+            <summary>
+            Validação personalizada para garantir que o utilizador tem pelo menos 18 anos.
+            </summary>
+        </member>
+        <member name="M:MaiorDeIdadeAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)">
+            <summary>
+            Verifica se a data de nascimento corresponde a uma idade mínima de 18 anos.
+            </summary>
+            <param name="value">Data de nascimento fornecida.</param>
+            <param name="validationContext">Contexto da validação.</param>
+            <returns>Resultado da validação.</returns>
+        </member>
+    </members>
+</doc>
