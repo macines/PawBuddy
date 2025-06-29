@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PawBuddy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64b19b2c5983df355883f635c1f0d95dc6aaa165")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3eca6d15cbcdf88538c5fbb79b055e0ee662319c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PawBuddy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PawBuddy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

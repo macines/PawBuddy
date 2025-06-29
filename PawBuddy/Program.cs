@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using PawBuddy.Data;
 using PawBuddy.Data.Seed;
+using PawBuddy.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -49,6 +50,9 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddControllersWithViews()
     .AddJsonOptions(options => 
         options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+
+// Signal R
+builder.Services.AddSignalR(); 
 
 // Swagger
 builder.Services.AddEndpointsApiExplorer();
@@ -152,7 +156,7 @@ using (var scope = app.Services.CreateScope())
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.MapHub<NotificacaoHub>("/notificacaoHub");
 app.MapRazorPages();
 
 app.Run();

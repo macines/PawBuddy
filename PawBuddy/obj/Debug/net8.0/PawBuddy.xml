@@ -586,7 +586,7 @@
             Também lida com o upload e validação de imagens.
             </summary>
         </member>
-        <member name="M:PawBuddy.Controllers.AnimaisController.#ctor(PawBuddy.Data.ApplicationDbContext)">
+        <member name="M:PawBuddy.Controllers.AnimaisController.#ctor(PawBuddy.Data.ApplicationDbContext,Microsoft.AspNetCore.SignalR.IHubContext{PawBuddy.Hubs.NotificacaoHub})">
             <summary>
             Construtor que injeta o contexto da base de dados.
             </summary>

@@ -618,3 +618,7 @@ C:\Users\ndmac\Documents\GitHub\PawBuddy\PawBuddy\obj\Debug\net8.0\PawBuddy.pdb
 C:\Users\ndmac\Documents\GitHub\PawBuddy\PawBuddy\obj\Debug\net8.0\PawBuddy.genruntimeconfig.cache
 C:\Users\ndmac\Documents\GitHub\PawBuddy\PawBuddy\obj\Debug\net8.0\ref\PawBuddy.dll
 C:\Users\ndmac\Documents\GitHub\PawBuddy\PawBuddy\obj\Debug\net8.0\PawBuddy.sourcelink.json
+C:\Users\ndmac\Documents\GitHub\PawBuddy\PawBuddy\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\ndmac\Documents\GitHub\PawBuddy\PawBuddy\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\ndmac\Documents\GitHub\PawBuddy\PawBuddy\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\ndmac\Documents\GitHub\PawBuddy\PawBuddy\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll

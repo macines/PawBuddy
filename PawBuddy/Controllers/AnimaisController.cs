@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using PawBuddy.Data;
+using PawBuddy.Hubs;
 using PawBuddy.Models;
 
 namespace PawBuddy.Controllers
@@ -21,15 +23,24 @@ namespace PawBuddy.Controllers
     public class AnimaisController : Controller
     {
         private readonly ApplicationDbContext _context;
-        
+        private readonly IHubContext<NotificacaoHub> _hubContext;
         /// <summary>
         /// Construtor que injeta o contexto da base de dados.
         /// </summary>
         /// <param name="context">Contexto da base de dados.</param>
-        public AnimaisController(ApplicationDbContext context)
+
+        public AnimaisController(ApplicationDbContext context, IHubContext<NotificacaoHub> hubContext)
         {
             _context = context;
+            _hubContext = hubContext;
         }
+        [AllowAnonymous]
+        public async Task<IActionResult> TestarNotificacao()
+        {
+            await _hubContext.Clients.All.SendAsync("ReceiveNotification", "Teste: Notificação enviada com sucesso!");
+            return Content("Notificação enviada");
+        }
+
         /// <summary>
         /// Lista todos os animais cadastrados.
         /// </summary>
@@ -211,7 +222,10 @@ namespace PawBuddy.Controllers
                     }
 
                     Console.WriteLine($"Animal criado com ID: {animal.Id}");
-                    return RedirectToAction(nameof(Index));
+                    await _hubContext.Clients.All.SendAsync("ReceiveNotification", $"{animal.Nome} foi adicionado ao sistema!");
+
+                    return RedirectToAction("Index", "Administrador");
+
                 }
                 catch (Exception ex)
                 {
@@ -338,7 +352,7 @@ namespace PawBuddy.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index", "Administrador");
             }
 
             return View(animal);
@@ -412,7 +426,7 @@ namespace PawBuddy.Controllers
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index", "Administrador");
         }
         
         // <summary>
@@ -425,4 +439,5 @@ namespace PawBuddy.Controllers
             return _context.Animal.Any(e => e.Id == id);
         }
     }
+
 }

@@ -58,3 +58,30 @@
         </div>
     </div>
 </section>
+
+@section Scripts {
+    <!-- Primeiro carregue a biblioteca -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/notificacaoHub")
+            .build();
+
+        connection.on("ReceiveNotification", function (message) {
+            const container = document.createElement("div");
+            container.className = "alert alert-info alert-dismissible fade show position-fixed top-0 start-50 translate-middle-x mt-3";
+            container.style.zIndex = 9999;
+            container.role = "alert";
+            container.innerHTML = `
+                <strong>🐾 Notificação:</strong> ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fechar"></button>
+            `;
+            document.body.appendChild(container);
+        });
+
+        connection.start()
+            .then(() => console.log("Conectado ao SignalR!"))
+            .catch(err => console.error("Erro ao conectar ao SignalR:", err));
+    </script>
+}
