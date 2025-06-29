@@ -99,12 +99,13 @@ namespace PawBuddy.Controllers
         {
             if (ModelState.IsValid)
             {
+                adotam.Id = adotam.AnimalFK;
                 _context.Add(adotam);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AnimalFK"] = new SelectList(_context.Animal, "Id", "Cor", adotam.AnimalFK);
-            ViewData["UtilizadorFK"] = new SelectList(_context.Utilizador, "Id", "CodPostal", adotam.UtilizadorFK);
+            ViewData["AnimalFK"] = new SelectList(_context.Animal, "Id", "Nome", adotam.AnimalFK);
+            ViewData["UtilizadorFK"] = new SelectList(_context.Utilizador, "Id", "Nome", adotam.UtilizadorFK);
             return View(adotam);
         }
         
@@ -128,8 +129,8 @@ namespace PawBuddy.Controllers
             {
                 return NotFound();
             }
-            ViewData["AnimalFK"] = new SelectList(_context.Animal, "Id", "Cor", adotam.AnimalFK);
-            ViewData["UtilizadorFK"] = new SelectList(_context.Utilizador, "Id", "CodPostal", adotam.UtilizadorFK);
+            ViewData["AnimalFK"] = new SelectList(_context.Animal, "Id", "Nome", adotam.AnimalFK);
+            ViewData["UtilizadorFK"] = new SelectList(_context.Utilizador, "Id", "Nome", adotam.UtilizadorFK);
             return View(adotam);
         }
         

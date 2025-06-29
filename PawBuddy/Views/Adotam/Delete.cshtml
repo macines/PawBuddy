@@ -4,19 +4,13 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<h1>Eliminar Adoção</h1>
 
-<h3>Tens acerteza que queres eliminar?</h3>
+<h3>Tens acerteza de que queres eliminar esta adoção?</h3>
 <div>
-    <h4>Adotam</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Id)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Id)
-        </dd>
+        
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.dateA)
         </dt>
@@ -36,10 +30,12 @@
             @Html.DisplayFor(model => model.Animal.Cor)
         </dd>
     </dl>
-    
+    <p></p>
     <form asp-action="Delete">
         <input type="hidden" asp-for="AnimalFK" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Voltar</a>
+        <input type="submit" value="Apagar Permanentemente" class="btn-paleta" />
+        <p></p>
+        <a asp-action="Index" asp-controller="Administrador" class="btn-paleta">Voltar ao Painel</a>
+
     </form>
 </div>

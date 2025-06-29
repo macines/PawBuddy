@@ -4,35 +4,29 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
 <p>
     <a asp-action="Create">Criar</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.dateA)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Utilizador)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Animal)
-            </th>
-            <th></th>
-        </tr>
+    <tr>
+            
+        <th>
+            @Html.DisplayNameFor(model => model.dateA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Utilizador)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Animal)
+        </th>
+        <th></th>
+    </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+    @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Id)
-            </td>
+            
             <td>
                 @Html.DisplayFor(modelItem => item.dateA)
             </td>
@@ -48,6 +42,6 @@
                 <a asp-action="Delete" asp-route-id="@item.AnimalFK">Eliminar</a>
             </td>
         </tr>
-}
+    }
     </tbody>
 </table>
