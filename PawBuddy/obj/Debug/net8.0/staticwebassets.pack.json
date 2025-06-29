@@ -53,94 +53,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\10.jpeg",
-      "PackagePath": "staticwebassets\\images\\10.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\106.jpg",
-      "PackagePath": "staticwebassets\\images\\106.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\11.jpg",
-      "PackagePath": "staticwebassets\\images\\11.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\12.jpeg",
-      "PackagePath": "staticwebassets\\images\\12.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\13561092-330e-459c-aca0-bf9f858c640e.jpeg",
-      "PackagePath": "staticwebassets\\images\\13561092-330e-459c-aca0-bf9f858c640e.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\14.jpg",
-      "PackagePath": "staticwebassets\\images\\14.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\15.jpg",
-      "PackagePath": "staticwebassets\\images\\15.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\18.jpeg",
-      "PackagePath": "staticwebassets\\images\\18.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\2.jpeg",
-      "PackagePath": "staticwebassets\\images\\2.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\2.jpg",
-      "PackagePath": "staticwebassets\\images\\2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\22.jpeg",
-      "PackagePath": "staticwebassets\\images\\22.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\5.jpg",
-      "PackagePath": "staticwebassets\\images\\5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\6.jpg",
-      "PackagePath": "staticwebassets\\images\\6.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\62efa7d6-b3d0-49ae-80bc-ca403b959395.jpg",
-      "PackagePath": "staticwebassets\\images\\62efa7d6-b3d0-49ae-80bc-ca403b959395.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\7.jpg",
-      "PackagePath": "staticwebassets\\images\\7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\7d695330-7cc5-412b-88fc-908f649b8f7a.jpg",
-      "PackagePath": "staticwebassets\\images\\7d695330-7cc5-412b-88fc-908f649b8f7a.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\8970652e-2e58-42cc-82c2-4d7d95b3cf7c.jpeg",
-      "PackagePath": "staticwebassets\\images\\8970652e-2e58-42cc-82c2-4d7d95b3cf7c.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\9.jpg",
-      "PackagePath": "staticwebassets\\images\\9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\91bedb35-50c0-4bc1-9a5e-b49d6dfa18d7.jpeg",
-      "PackagePath": "staticwebassets\\images\\91bedb35-50c0-4bc1-9a5e-b49d6dfa18d7.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\Lixo\\16.jpeg",
-      "PackagePath": "staticwebassets\\images\\Lixo\\16.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\Lixo\\17.jpeg",
-      "PackagePath": "staticwebassets\\images\\Lixo\\17.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\Lixo\\4.jpeg",
-      "PackagePath": "staticwebassets\\images\\Lixo\\4.jpeg"
-    },
-    {
       "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\animal0.jpg",
       "PackagePath": "staticwebassets\\images\\animal0.jpg"
     },
@@ -161,8 +73,8 @@
       "PackagePath": "staticwebassets\\images\\animal12.jpg"
     },
     {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\animal13.png",
-      "PackagePath": "staticwebassets\\images\\animal13.png"
+      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\animal13.jpg",
+      "PackagePath": "staticwebassets\\images\\animal13.jpg"
     },
     {
       "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\animal14.jpg",
@@ -199,10 +111,6 @@
     {
       "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\animal9.jpg",
       "PackagePath": "staticwebassets\\images\\animal9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\dcfc7881-e02b-4e7b-b366-1b979b781834.jpg",
-      "PackagePath": "staticwebassets\\images\\dcfc7881-e02b-4e7b-b366-1b979b781834.jpg"
     },
     {
       "Id": "C:\\Users\\ndmac\\Documents\\GitHub\\PawBuddy\\PawBuddy\\wwwroot\\images\\header.jpg",
